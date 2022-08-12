@@ -17,7 +17,6 @@ def test_server():
     
     # put together info for templates/index.html
     template_data = {
-        'title' : 'HELLO!',
         'time' : timestring,
         'temp' : temp
     }
